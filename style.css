@@ -43,7 +43,8 @@ body * {
 }
 
 .profile__container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -134,7 +135,9 @@ ul li a {
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
   backdrop-filter: blur(4px); /*blur*/
-  -webkit-backdrop-filter: blur(4px); /*blur para o safari, acrescentado o webkit*/
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /*blur para o safari, acrescentado o webkit*/
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s;
